@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/**
+*
+* main - Entry point
+*
+* Return: always 0
+*/
+
+int main(void)
+
+{	int a;
+	char b;
+	long int c;
+	long long int d;
+	float e;
+	printf("size of int : %d", sizeof(a));
+	printf("size of char : %c", sizeof(b));
+	printf("size of long int : %d", sizeof(c));
+	printf("size of long long int : %d", sizeof(d));
+	printf("size of float : %d", sizeof(e));
+
+	return (0);
+}
