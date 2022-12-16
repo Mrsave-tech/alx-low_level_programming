@@ -1,32 +1,36 @@
-
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Finds and prints the largest prime
- *        factor of the number 612852475143.
+ * print_triangle - Prints a triangle of squares according parameter
+ * @size: The size of the squares triangle
  *
- * Return: Always 0.
+ * Description: Prints a triangle of squares according parameter
+ *
+ * Return: empty
  */
-int main(void)
+void print_triangle(int size)
 {
-	long prime = 612852475143, div;
+	int x, y, z;
 
-	while (div < (prime / 2))
+	if (size <= 0)
 	{
-		if ((prime % 2) == 0)
+		_putchar('\n');
+	}
+	else
+	{
+		for (x = 0; x < size; x++)
 		{
-			prime /= 2;
-			continue;
-		}
+			for (y = size - x; y > 1; y--)
+			{
+				_putchar(32);
+			}
 
-		for (div = 3; div < (prime / 2); div += 2)
-		{
-			if ((prime % div) == 0)
-				prime /= div;
+			for (z = 0; z <= x; z++)
+			{
+				_putchar(35);
+			}
+
+			_putchar('\n');
 		}
 	}
-
-	printf("%ld\n", prime);
-
-	return (0);
 }
