@@ -1,20 +1,15 @@
 #include "main.h"
 
 /**
- *  _puts - Write a function that prints a string, followed by a new line
+ * main - check the code
  *
- *  @str: This is input string
- *  Description: Write a function that prints a string
- *
- *  Return: a string.
+ * Return: Always 0.
  */
-void _puts(char *str)
+int main(void)
 {
-	int i;
+	char *str;
 
-	for (i = 0; str[i] != '\0'; ++i)
-	{
-		_putchar(str[i]);
-	}
-	_putchar('\n');
+	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	_puts(str);
+	return (0);
 }
