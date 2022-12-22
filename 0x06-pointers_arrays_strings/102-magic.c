@@ -1,9 +1,5 @@
-#include <stdio.h>
-/**
- * main - entry point
- *
- * Return: Always 0
- */
+include <stdio.h>
+
 int main(void)
 {
 	int n;
@@ -16,7 +12,7 @@ int main(void)
 	 * write your line of code here...
 	 * Remember:
 	 * - you are not allowed to use a
-	 * - you are not allowed to modify p
+	 * - you are not alloweed to modify p
 	 * - only one statement
 	 * - you are not allowed to code anything else than this line of code
 	 */
