@@ -1,12 +1,13 @@
 #include <stdio.h>
-
+/**
+ * main - entry point
+ */
 int main(void)
 {
 	int n;
 	int a[5];
 	int *p;
-
-	p = &n;
+		p = &n;
 	/*
 	 * write your line of code here...
 	 * Remember:
