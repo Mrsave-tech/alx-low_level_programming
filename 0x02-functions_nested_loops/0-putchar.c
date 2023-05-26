@@ -6,7 +6,7 @@
  * Return: Zero for this program
  * Author: Mr save
  */
-int _putchar(char c)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
